@@ -17,6 +17,7 @@ cargo install sheldon
 
 ln -sf "/workspaces/.codespaces/.persistedshare/dotfiles/.gitconfig" "$HOME/.gitconfig"
 ln -sf "/workspaces/.codespaces/.persistedshare/dotfiles/.zshrc" "$HOME/.zshrc"
-ln -sfn "/workspaces/.codespaces/.persistedshare/dotfiles/.config" "$HOME/.config"
+ln -sf "/workspaces/.codespaces/.persistedshare/dotfiles/.config/starship.toml" "$HOME/.config/starship.toml"
+ln -sfn "/workspaces/.codespaces/.persistedshare/dotfiles/.config/sheldon" "$HOME/.config/sheldon"
 
 echo "Dotfiles setup complete!"
