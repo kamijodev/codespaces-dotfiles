@@ -1,0 +1,20 @@
+[push]
+  default = current
+[user]
+  name = kamijodev
+  email = kamijodev@gmail.com
+[alias]
+  st = status
+  com = commit
+  ame = commit --amend
+  co = checkout
+  sw = switch
+  br = branch
+  l1 = log --oneline
+  back-hard = reset --hard HEAD^
+  back-soft = reset --soft HEAD^
+  cp = cherry-pick
+[core]
+  editor = code
+[init]
+  defaultBranch = main
